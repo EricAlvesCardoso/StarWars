@@ -288,4 +288,26 @@ width: 60%;
   .crie-sua-religiao img {
     width: 65%;
   }
+  /*Main*/
+  .imagem-canto-esquerdo{
+    top: 160px;
+  }
+   .div-card-superior{
+     bottom: 220px;
+     left: 70px;
+   }
+ 
+ .div-card-superior img{
+ width: 90%;
+ 
+ }
+ .div-card-superior h2{
+     left: 90px;
+ }
+ .div-card-superior p{
+     left: 40px;
+ }
+ .div-card-superior button a{
+     left: 90px;
+ }
 }
