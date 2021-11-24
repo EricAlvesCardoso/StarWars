@@ -1,208 +1,291 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-header{
-   position: relative;
-  
-    
-
+header {
+  position: relative;
 }
 
-.fundo{
-   position: absolute;
-  
-    
+.fundo {
+  position: absolute;
 }
 
 .fundo img {
-    width: 100%;
+  width: 100%;
 }
 
 .personagem {
-    
- position: absolute;
- left: 150px;
- top: 1px;
- z-index: 1;
- 
+  position: absolute;
+  left: 150px;
+  top: 1px;
+  z-index: 1;
 }
 
 .personagem img {
-   width: 80%;
-   
-   
+  width: 80%;
 }
 
-.nome-star{
-    position: absolute;
-    left: 80px;
-    bottom: 350px; 
-    z-index: -1;   
+.nome-star {
+  position: absolute;
+  left: 80px;
+  bottom: 350px;
+  z-index: -1;
 }
 
-.nome-star img{
-    width: 100%;
-   
+.nome-star img {
+  width: 100%;
 }
 
-.nome-wars{
+.nome-wars {
+  position: absolute;
+  left: 840px;
+  bottom: 350px;
+  z-index: -1;
+}
+
+.nome-wars img {
+  width: 100%;
+}
+
+.crie-sua-religiao {
+  position: absolute;
+  left: 1100px;
+  bottom: 130px;
+}
+/*Main*/
+main{
+    position: relative;
+}
+
+.imagem-canto-esquerdo{
    position: absolute;
-   left: 840px;
-   bottom: 350px;
-   z-index: -1;
+   top: 440px;
 }
 
-.nome-wars img{
+.imagem-canto-esquerdo img{
     width: 100%;
 }
 
-.crie-sua-religiao{
+.div-card-superior{
     position: absolute;
-    left: 1100px;
-    bottom: 130px;
+    bottom: 1100px;
+    left: 200px;
+    z-index: 1;
 }
+
+.div-card-superior img{
+width: 70%;
+height: 10%;
+}
+
+.div-card-superior h2 {
+    margin: ;
+    color:white;
+    position: absolute;
+    bottom: 300px;
+    left: 85px;
+    z-index: ;
+    white-space: pre-line;
+}
+
+.div-card-superior p{
+    position: absolute;
+    bottom: 180px;
+    left: 40px;
+    white-space: pre-line;
+    color: whitesmoke;
+}
+
+
+.div-card-superior button a{
+    display: inline;
+    position: absolute;
+    bottom: 80px;
+    left: 95px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    width: 100px;
+    height: 20px;
+   text-decoration: none;
+   
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 1024px) {
-    .personagem  {
-        left: 100px;
-        
-     }
-     .nome-star{
-        
-        left: 120px;
-        bottom: 250px;    
+    .personagem {
+      left: 100px;
     }
-    .nome-star img{
-        width: 50%;
-       
+    .nome-star {
+      left: 120px;
+      bottom: 250px;
     }
-    .nome-wars{
-        
-        left: 580px;
-        bottom: 250px;
-      
-     }
-     
-     .nome-wars img{
-         width: 70%;
-     }
-     .crie-sua-religiao{
-       
-        left: 750px;
-        bottom: 70px;
+    .nome-star img {
+      width: 50%;
     }
-
-    .crie-sua-religiao img{
-        width: 70%;
+    .nome-wars {
+      left: 580px;
+      bottom: 250px;
     }
-}
-
+  
+    .nome-wars img {
+      width: 70%;
+    }
+    .crie-sua-religiao {
+      left: 750px;
+      bottom: 70px;
+    }
+  
+    .crie-sua-religiao img {
+      width: 70%;
+    }
+  }
 
 @media screen and (max-width: 768px) {
-    .personagem  {
-        left: 80px;
-        
-     }
-     .nome-star{
-        
-        left: 75px;
-        bottom: 182px;    
-    }
-    .nome-star img{
-        width: 40%;
-       
-    }
-    .nome-wars{
-        
-        left: 430px;
-        bottom: 182px;
-      
-     }
-     
-     .nome-wars img{
-         width: 80%;
-     }
-     .crie-sua-religiao{
-       
-        left: 540px;
-        bottom: 70px;
-    }
+  .personagem {
+    left: 80px;
+  }
+  .nome-star {
+    left: 75px;
+    bottom: 182px;
+  }
+  .nome-star img {
+    width: 40%;
+  }
+  .nome-wars {
+    left: 430px;
+    bottom: 182px;
+  }
 
-    .crie-sua-religiao img{
-        width: 50%;
-    }
+  .nome-wars img {
+    width: 80%;
+  }
+  .crie-sua-religiao {
+    left: 540px;
+    bottom: 70px;
+  }
+
+  .crie-sua-religiao img {
+    width: 50%;
+  }
+  /*main*/
+  .imagem-canto-esquerdo{
+   top: 330px;
+ }
+  .div-card-superior{
+    bottom: 1050px;
+    left: 100px;
+  }
+
+.div-card-superior img{
+width: 60%;
+
+}
+.div-card-superior h2{
+    left: 70px;
+}
+.div-card-superior p{
+    left: 20px;
+}
+.div-card-superior button a{
+    left: 75px;
+}
 }
 
 @media screen and (max-width: 425px) {
-    .personagem  {
-        left: 50px;
-        
-     }
-     .nome-star{
-        
-        left: 40px;
-        bottom: 100px;    
-    }
-    .nome-star img{
-        width: 30%;
-       
-    }
-    
-    .nome-wars{
-        
-        left: 240px;
-        bottom: 100px;
-      
-     }
-     
-     .nome-wars img{
-         width: 80%;
-     }
-     
-     .crie-sua-religiao{
-       
-        left: 290px;
-        bottom: 40px;
-    }
+  .personagem {
+    left: 50px;
+  }
+  .nome-star {
+    left: 40px;
+    bottom: 100px;
+  }
+  .nome-star img {
+    width: 30%;
+  }
 
-    .crie-sua-religiao img{
-        width: 50%;
-    }
+  .nome-wars {
+    left: 240px;
+    bottom: 100px;
+  }
+
+  .nome-wars img {
+    width: 80%;
+  }
+
+  .crie-sua-religiao {
+    left: 290px;
+    bottom: 40px;
+  }
+
+  .crie-sua-religiao img {
+    width: 50%;
+  }
+  /*Main*/
+  .imagem-canto-esquerdo{
+    top: 180px;
+  }
+   .div-card-superior{
+     bottom: 250px;
+     left: 70px;
+   }
+ 
+ .div-card-superior img{
+ width: 90%;
+ 
+ }
+ .div-card-superior h2{
+     left: 100px;
+ }
+ .div-card-superior p{
+     left: 60px;
+ }
+ .div-card-superior button a{
+     left: 110px;
+ }
 }
 
 @media screen and (max-width: 375px) {
-    .personagem  {
-        left: 40px;
-        
-     }
-     .nome-star{
-        
-        left: 35px;
-        bottom: 90px;    
-    }
-    .nome-star img{
-        width: 30%;
-       
-    }
-    .nome-wars{
-        
-        left: 210px;
-        bottom: 90px;
-      
-     }
-     
-     .nome-wars img{
-         width: 80%;
-     }
-     .crie-sua-religiao{
-       
-        left: 260px;
-        bottom: 20px;
-    }
+  .personagem {
+    left: 40px;
+  }
+  .nome-star {
+    left: 35px;
+    bottom: 90px;
+  }
+  .nome-star img {
+    width: 30%;
+  }
+  .nome-wars {
+    left: 210px;
+    bottom: 90px;
+  }
 
-    .crie-sua-religiao img{
-        width: 65%;
-    }
+  .nome-wars img {
+    width: 80%;
+  }
+  .crie-sua-religiao {
+    left: 260px;
+    bottom: 20px;
+  }
+
+  .crie-sua-religiao img {
+    width: 65%;
+  }
 }
