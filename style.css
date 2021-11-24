@@ -290,7 +290,7 @@ width: 60%;
   }
   /*Main*/
   .imagem-canto-esquerdo{
-    top: 160px;
+    top: 155px;
   }
    .div-card-superior{
      bottom: 220px;
@@ -311,3 +311,54 @@ width: 60%;
      left: 90px;
  }
 }
+
+@media screen and (max-width: 320px) {
+    .personagem {
+      left: 40px;
+    }
+    .nome-star {
+      left: 30px;
+      bottom: 75px;
+    }
+    .nome-star img {
+      width: 30%;
+    }
+    .nome-wars {
+      left: 175px;
+      bottom: 75px;
+    }
+  
+    .nome-wars img {
+      width: 80%;
+    }
+    .crie-sua-religiao {
+      left: 220px;
+      bottom: 20px;
+    }
+  
+    .crie-sua-religiao img {
+      width: 65%;
+    }
+    /*Main*/
+    .imagem-canto-esquerdo{
+      top: 135px;
+    }
+     .div-card-superior{
+       bottom: 130px;
+       left: 60px;
+     }
+   
+   .div-card-superior img{
+   width: 100%;
+   
+   }
+   .div-card-superior h2{
+       left: 90px;
+   }
+   .div-card-superior p{
+       left: 40px;
+   }
+   .div-card-superior button a{
+       left: 90px;
+   }
+  }
