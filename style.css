@@ -4,50 +4,115 @@
     box-sizing: border-box;
 }
 header{
-   position: absolute;
-}
-.topo {
+   position: relative;
+  
+    
 
 }
-.topo img {
-background-size: contain;
-  width: 100%;
-  height: 100%;
- 
+
+.fundo{
+   position: absolute;
+  
     
 }
-.personagem{
-    position: absolute;
-    top: 0.1vh;
-    left: 15vw;
-}
-.personagem img{
-   width: 82%;
+
+.fundo img {
+    width: 100%;
 }
 
-.nome-star{
-  position: relative;
-  bottom: 23vw;
-  left: 23vw;
+.personagem {
+    
+ position: absolute;
+ left: 150px;
+ top: 1px;
+ z-index: 1;
  
 }
 
-.nome-star img{
-    width: 25%;
+.personagem img {
+   width: 80%;
+   
    
 }
 
-.nome-wars{
-  position: relative;
-  bottom: 29vw;
-  left: 70vw;
- 
-  
+.nome-star{
+    position: absolute;
+    left: 190px;
+    bottom: 400px; 
+    z-index: -1;   
 }
 
-.nome-wars img{
-    width: 25%;
+.nome-star img{
+    width: 70%;
+   
 }
 
 
 
+
+
+@media screen and (max-width: 1024px) {
+    .personagem  {
+        left: 100px;
+        
+     }
+     .nome-star{
+        
+        left: 150px;
+        bottom: 280px;    
+    }
+    .nome-star img{
+        width: 50%;
+       
+    }
+    
+}
+
+
+@media screen and (max-width: 768px) {
+    .personagem  {
+        left: 80px;
+        
+     }
+     .nome-star{
+        
+        left: 100px;
+        bottom: 200px;    
+    }
+    .nome-star img{
+        width: 40%;
+       
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .personagem  {
+        left: 50px;
+        
+     }
+     .nome-star{
+        
+        left: 50px;
+        bottom: 110px;    
+    }
+    .nome-star img{
+        width: 30%;
+       
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .personagem  {
+        left: 40px;
+        
+     }
+     .nome-star{
+        
+        left: 50px;
+        bottom: 100px;    
+    }
+    .nome-star img{
+        width: 30%;
+       
+    }
+}
