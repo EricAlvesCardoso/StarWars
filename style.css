@@ -4,33 +4,40 @@
   box-sizing: border-box;
 }
 header {
-  position: relative;
+
 }
 
 .fundo {
-  position: absolute;
+  position: relative;
+ 
+  
 }
 
 .fundo img {
   width: 100%;
+  height: 100%;
 }
 
 .personagem {
   position: absolute;
-  left: 150px;
-  top: 1px;
-  z-index: 1;
+  left: 10%;
+  top: 1%;
+  z-index: 2;
+ 
 }
 
 .personagem img {
   width: 80%;
 }
 
+
 .nome-star {
   position: absolute;
-  left: 80px;
-  bottom: 350px;
-  z-index: -1;
+  left: 15%;
+  top: 55%;
+  z-index: 1;
+  max-width: 30%;
+  
 }
 
 .nome-star img {
@@ -39,9 +46,10 @@ header {
 
 .nome-wars {
   position: absolute;
-  left: 840px;
-  bottom: 350px;
-  z-index: -1;
+  left: 66%;
+  top: 55%;
+  z-index:  1;
+  
 }
 
 .nome-wars img {
@@ -50,315 +58,303 @@ header {
 
 .crie-sua-religiao {
   position: absolute;
-  left: 1100px;
-  bottom: 130px;
+  left: 80%;
+  top: 80%;
+  max-width: 15%;
+ 
+}
+
+.crie-sua-religiao img{
+  width: 60%;
 }
 /*Main*/
 main{
-    position: relative;
+  
+   
 }
 
 .imagem-canto-esquerdo{
-   position: absolute;
-   top: 440px;
+   position: relative;
+   
+   
+   
+ 
 }
 
 .imagem-canto-esquerdo img{
-    width: 100%;
+    width: auto auto;
+  
 }
 
 .div-card-superior{
     position: absolute;
-    bottom: 1100px;
-    left: 200px;
-    z-index: 1;
+    bottom: 65%;
+    left: 15%;
+    z-index: 3;
+    max-width: 60%;
 }
 
 .div-card-superior img{
-width: 70%;
-height: 10%;
+width: 90%;
+
 }
 
 .div-card-superior h2 {
-    margin: ;
+    
     color:white;
     position: absolute;
-    bottom: 300px;
-    left: 85px;
-    z-index: ;
+    bottom: 80%;
+    left: 30%;
     white-space: pre-line;
+    font-size: 28px;
 }
 
 .div-card-superior p{
     position: absolute;
-    bottom: 180px;
-    left: 40px;
+    bottom: 50%;
+    left: 09%;
     white-space: pre-line;
     color: whitesmoke;
+    font-size: 22px;
 }
 
 
 .div-card-superior button a{
-    display: inline;
+    
     position: absolute;
-    bottom: 80px;
-    left: 95px;
+    bottom: 20%;
+    left: 27%;
     border: 1px solid white;
     background-color: transparent;
     color: white;
-    width: 100px;
-    height: 20px;
+    width: 40%;
+    height: 5%;
    text-decoration: none;
+   font-size: 22px;
+
+   border-radius: 3px;
    
    
+}
+.div-card-superior button :hover { 
+  
+  background-color: red; 
+  
+  transition: 0.1s;
+  
+  opacity: 0.9;
+  
+  }
+
+.imagem-da-direita{
+  position: absolute;
+  top: 18%;
+  left: 71.9%;
+}
+
+.elementos-da-direita{
+  position: absolute;
+  top: 18%;
+  left: 60%;
+  font-size: 19px;
+
+  }
+
+  .linha-do-h2{
+    position: absolute;
+    top: 20%;
+    left: 59%;
+    
+ 
+  }
+  .linha-do-h2 img{
+    width: 30%;
+  }
+
+.p-da-direita p{
+  position: absolute;
+  white-space: pre-line;
+  top: 24%;
+  left: 46.7%;
+  color: black;
+  font-size: 18px;
+  text-align: right;
+}
+
+.linha-do-meio{
+  position: absolute;
+  top: 45%;
+  left: 15%;
+  
+}
+
+.linha-do-meio img{
+  width: 97%;
+}
+
+.personagem-lord-sifh{
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  z-index: 1;
+  max-width: 70%;
+}
+.personagem-lord-sifh img{
+  width: 100%;
+}
+
+.estrutura-de-jogo{
+  position: absolute;
+  top: 60%;
+  left: 55%;
+}
+
+.lista-meio{
+ 
+  position: absolute;
+  list-style: none;
+  font-size: 25px;
+ 
+  right: 1%;
+  margin-top: 10%;
+  text-align: right;
+  white-space: nowrap;
+ 
+}
+
+.lista-meio a {
+  text-decoration: none;
+}
+
+.lista-meio a li  {
+  
+  color: black;
+  margin-bottom: 1em;
+  
+
+}
+
+.lista-meio :hover { 
+  
+background-color: orangered; 
+
+transition: 0.1s;
+
+opacity: 0.9;
+ 
+color:#fff;
+
 }
 
 
 
 
+.personagem-rey{
+  position: absolute;
+  top: 55%;
+  left: 70%;
+  z-index: 1;
+  max-width: 30%;
+}
+
+.personagem-rey img{
+  width: 100%;
+}
+
+/*footer*/
+.imagem-final{
+  position: relative;
+  
+}
+
+.imagem-final img{
+  width: 100%;
+}
 
 
 
-
-
-
-
-
-
-
-
+@media screen and (max-width: 1440px) {
+  .p-da-direita p{
+    font-size: 16.4px;
+  }
+}
 
 @media screen and (max-width: 1024px) {
-    .personagem {
-      left: 100px;
-    }
-    .nome-star {
-      left: 120px;
-      bottom: 250px;
-    }
-    .nome-star img {
-      width: 50%;
-    }
-    .nome-wars {
-      left: 580px;
-      bottom: 250px;
-    }
-  
-    .nome-wars img {
-      width: 70%;
-    }
-    .crie-sua-religiao {
-      left: 750px;
-      bottom: 70px;
-    }
-  
-    .crie-sua-religiao img {
-      width: 70%;
-    }
+ .div-card-superior{
+   left: 7%;
+   bottom: 73%;
+ }
+  .div-card-superior img{
+   width: 70%;
+ }
+
+ .div-card-superior h2 {
+   left:20%;
+ }
+
+ .div-card-superior p {
+   left: 4%;
+   font-size: 18px;
+ }
+ 
+  .p-da-direita p{
+    font-size: 16.4px;
   }
+  .div-card-superior button a{
+    left:15%;
+    width: 40%;
+    height: 7%;
+  }
+  .imagem-da-direita{
+    left: 70%;
+    top: 15%;
+  }
+  .imagem-da-direita img {
+    width: 100%;
+  }
+  .elementos-da-direita{
+    left: 54%;
+    top: 15%;
+  }
+  .linha-do-h2{
+    left: 55%;
+    top: 17%;
+  }
+  .p-da-direita p {
+    left: 37%;
+    top: 19%;
+  }
+
+ .personagem-rey{
+   left: 70%;
+   top: 65%;
+  
+ }
+ .personagem-lord-sifh {
+   left: 1%;
+   top: 60%;
+ }
+}
+
 
 @media screen and (max-width: 768px) {
-  .personagem {
-    left: 80px;
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
-  .nome-star {
-    left: 75px;
-    bottom: 182px;
+  .container{
+    display: flex;
+    flex-direction: column;
   }
-  .nome-star img {
-    width: 40%;
-  }
-  .nome-wars {
-    left: 430px;
-    bottom: 182px;
-  }
-
-  .nome-wars img {
-    width: 80%;
-  }
-  .crie-sua-religiao {
-    left: 540px;
-    bottom: 70px;
-  }
-
-  .crie-sua-religiao img {
-    width: 50%;
-  }
-  /*main*/
-  .imagem-canto-esquerdo{
-   top: 330px;
- }
   .div-card-superior{
-    bottom: 1050px;
-    left: 100px;
-  }
-
-.div-card-superior img{
-width: 60%;
-
-}
-.div-card-superior h2{
-    left: 70px;
-}
-.div-card-superior p{
-    left: 20px;
-}
-.div-card-superior button a{
-    left: 75px;
-}
-}
-
-@media screen and (max-width: 425px) {
-  .personagem {
-    left: 50px;
-  }
-  .nome-star {
-    left: 40px;
-    bottom: 100px;
-  }
-  .nome-star img {
-    width: 30%;
-  }
-
-  .nome-wars {
-    left: 240px;
-    bottom: 100px;
-  }
-
-  .nome-wars img {
-    width: 80%;
-  }
-
-  .crie-sua-religiao {
-    left: 290px;
-    bottom: 40px;
-  }
-
-  .crie-sua-religiao img {
-    width: 50%;
-  }
-  /*Main*/
-  .imagem-canto-esquerdo{
-    top: 180px;
-  }
-   .div-card-superior{
-     bottom: 250px;
-     left: 70px;
-   }
- 
- .div-card-superior img{
- width: 90%;
- 
- }
- .div-card-superior h2{
-     left: 100px;
- }
- .div-card-superior p{
-     left: 60px;
- }
- .div-card-superior button a{
-     left: 110px;
- }
-}
-
-@media screen and (max-width: 375px) {
-  .personagem {
-    left: 40px;
-  }
-  .nome-star {
-    left: 35px;
-    bottom: 90px;
-  }
-  .nome-star img {
-    width: 30%;
-  }
-  .nome-wars {
-    left: 210px;
-    bottom: 90px;
-  }
-
-  .nome-wars img {
-    width: 80%;
-  }
-  .crie-sua-religiao {
-    left: 260px;
-    bottom: 20px;
-  }
-
-  .crie-sua-religiao img {
-    width: 65%;
-  }
-  /*Main*/
-  .imagem-canto-esquerdo{
-    top: 155px;
-  }
-   .div-card-superior{
-     bottom: 220px;
-     left: 70px;
-   }
- 
- .div-card-superior img{
- width: 90%;
- 
- }
- .div-card-superior h2{
-     left: 90px;
- }
- .div-card-superior p{
-     left: 40px;
- }
- .div-card-superior button a{
-     left: 90px;
- }
-}
-
-@media screen and (max-width: 320px) {
-    .personagem {
-      left: 40px;
-    }
-    .nome-star {
-      left: 30px;
-      bottom: 75px;
-    }
-    .nome-star img {
-      width: 30%;
-    }
-    .nome-wars {
-      left: 175px;
-      bottom: 75px;
-    }
-  
-    .nome-wars img {
-      width: 80%;
-    }
-    .crie-sua-religiao {
-      left: 220px;
-      bottom: 20px;
-    }
-  
-    .crie-sua-religiao img {
-      width: 65%;
-    }
-    /*Main*/
-    .imagem-canto-esquerdo{
-      top: 135px;
-    }
-     .div-card-superior{
-       bottom: 130px;
-       left: 60px;
-     }
+    display: flex;
    
-   .div-card-superior img{
-   width: 100%;
-   
-   }
-   .div-card-superior h2{
-       left: 90px;
-   }
-   .div-card-superior p{
-       left: 40px;
-   }
-   .div-card-superior button a{
-       left: 90px;
-   }
   }
+  .imagem-da-direita{
+    display: flex;
+   
+  }
+
+}
