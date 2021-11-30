@@ -338,23 +338,185 @@ color:#fff;
 
 
 @media screen and (max-width: 768px) {
-  main{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  .fundo img {
+    
   }
-  .container{
-    display: flex;
-    flex-direction: column;
-  }
+  .imagem-canto-esquerdo img{
+   
+   width: 50%;
+  
+}
   .div-card-superior{
-    display: flex;
+   left: 50%;
+   top: 10%;
+    
    
   }
-  .imagem-da-direita{
-    display: flex;
-   
+  .div-card-superior img{
+   width: 70%;
+   }
+
+   .div-card-superior h2 {
+    left: 20%;
+    top: 10%;
+  }
+  .div-card-superior p{
+    left: 2%;
+    top: 130%;
   }
 
+  .div-card-superior button a{
+    width: 50%;
+    height: 20%;
+    left: 10%;
+    top: 250%;
+  }
+
+  .imagem-da-direita{
+   left: 40%;
+   top: 40%;
+   
+  }
+  
+
+  .elementos-da-direita {
+    left: 70%;
+    top: 52%;
+  }
+
+  .linha-do-h2 {
+    left: 70%;
+    top: 53%;
+  }
+  .linha-do-h2{
+    width: 10%;
+  }
+
+  .p-da-direita p{
+    left: 40%;
+    top:  55%;
+    font-size: 20px;
+  }
+  .linha-do-meio{
+    left: 20%;
+    top:  50%;
+  }
+  .linha-do-meio {
+    width: 5%;
+  }
+  .imagem-final img{
+   
+
+  }
+}
+@media screen and (max-width: 375px) {
+  .fundo img {
+   
+  }
+  .imagem-canto-esquerdo img{
+   
+   width: 80%;
+
+  
+}
+  .div-card-superior{
+   left: 30%;
+   top: 4%;
+    
+   
+  }
+  .div-card-superior img{
+   width: 110%;
+   }
+
+   .div-card-superior h2 {
+    left: 28%;
+    top: 10%;
+  }
+  .div-card-superior p{
+    left: 10%;
+    top: 80%;
+  }
+
+  .div-card-superior button a{
+    width: 60%;
+    height: 20%;
+    left: 25%;
+    top: 230%;
+  }
+
+  .imagem-da-direita{
+   left: 30%;
+   top: 75%;
+   
+  }
+  .imagem-da-direita img{
+    width: 95%;
+  }
+  .fundo-branco{
+    
+  
+    
+   
+  }
+              
+
+
+  .elementos-da-direita {
+    left: 50%;
+    top: 108%;
+   
+   font-size: 15px;
+  }
+
+  .linha-do-h2 {
+    left: 47%;
+    top: 110%;
+  
+   
+  }
+  .linha-do-h2 img{
+    width: 400%;
+    height: 3px;
+  }
+
+  .p-da-direita p{
+    left: 5%;
+    top:  120%;
+    font-size: 14px;
+  }
+  .linha-do-meio{
+    left: 10%;
+    top:  140%;
+ 
+  }
+  .linha-do-meio img {
+    width: 1500%;
+    height: 3px;
+  }
+  .imagem-final img{
+    
+
+  }
+  .personagem-lord-sifh{
+    top: 150%;
+  }
+  .personagem-lord-sifh img{
+    width: 60%;
+  }
+  .estrutura-de-jogo{
+    top: 150%;
+    font-size: 10px;
+    left: 30%;
+  }
+  .lista-meio{
+    font-size: 10px;
+  }
+  .personagem-rey{
+    top: 150%;
+    left: 73%;
+  }
+  .personagem-rey img{
+    width: 90%;
+  }
 }
