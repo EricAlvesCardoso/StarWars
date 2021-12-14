@@ -1,118 +1,254 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>StarWars</title>
-  </head>
-  <body>
-    <header>
-      <div class="fundo">
-     
-       <img src="./img/imagem-fundo.png" alt="">
-        <div class="personagem">
-          <img
-            src="./img/Kylo-Ren.png"
-            alt="imagem do kylo do star wars"
-          />
-          </div>
-         
-          <div class="nome-star">
-            <img
-              src="./img/star.png"
-              alt="nome star"
-            />
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Star Wars</title>
+</head>
+<body>
+    <div class="global">
+    <header class="header-container">
+    <img src="img/imagem-fundo.png" class="imagem-fundo-header">
 
-          <div class="nome-wars">
-            <img
-              src="./img/wars.png"
-              alt="nome wars"
-            />
-            </div>
-          
-          <div class="crie-sua-religiao">
-            <img
-              src="./img/crie sua legiao.png"
-              alt="nome crie sua religiao"
-            />
-          </div>
+    <div class="header-content">
+        <div class="nome-star">
+            
+            <img class="img-star-wars" src="./img/star.png" alt="">
+            
         </div>
-      </div>
+        <div class="nome-wars">
+            
+            <img class="img-star-wars"  src="./img/wars.png" alt="">
+            
+        </div>
+            
+        <div class="personagem-kylo">
+            
+            <img class="img-kylo" src="./img/Kylo-Ren.png" alt="">
+            
+        </div>
+        <div class="crie-sua-legiao">
+            
+            <img src="./img/crie sua legiao.png" alt="">
+        
+        </div>
+    </div>
+
     </header>
     <main>
-        <div class="container">
-        <div class="imagem-canto-esquerdo">
-            <img src="./img/sta uo robot.png" alt="">
-          <div class="div-card-superior">
-              <img src="./img/strom trupe red.png" alt="">
-              <h2>COMECE 
-             A JOGAR
-            </h2>
-            <p>Baixe o jogo, cadastre seu nome
-                de usuário e comece a interagir com 
-                mais de um milhão de jogadores.
-            </p>
-            <button>
-               <a href="#">DOWNLOAD</a>  
-            </button>
-            </div>
-            <div class="imagem-da-direita">
-              <img src="./img/star wars frente de batalha.png" alt="">
-              
-            </div>
-            <div class="fundo-branco">
-
-            </div>
-            <div class="elementos-da-direita">
-              <h2>Sobre o Jogo</h2>
-            
-            </div>
-            <div class="linha-do-h2">
-              <img src="./img/Linha 2.png" alt="">
-            </div>
-            <div class="p-da-direita">
-              <p>Star Wars Battlefront é um jogo eletrônico de tiro em 
-                primeira e terceira pessoa, produzido pela DICE 
-                                  e baseado na franquia Star Wars.
-                Foi publicado pela Electronic Arts com a chancela da 
-                LucasArts a 17 de Novembro de 2015 para Microsoft
-                Windows, Playstation 4 e Xbox One.
-              </p>
-            </div>
-            <div class="linha-do-meio">
-              <img src="./img/Linha 2.png" alt="">
-            </div>
-            <div class="personagem-lord-sifh">
-              <img src="./img/lord sifh 2.png" alt="">
-            </div>
-            <nav class="estrutura-de-jogo">
-              <h2>ESTRUTURA DE JOGO</h1>
-              
-                <ul class="lista-meio">
-                  <a href="#"> <li>JORNADA</li></a>
-                  <a href="#"> <li>A BATALHA DO GUERREIRO ESTELAR</li></a>
-                    <a href="#"><li>HERÓIS CONTRA OS VILÕES</li></a>
-                      <a href="#"> <li>A BATALHA GALÁCTICA</li></a>
-                        <a href="#"> <li>SUPERIORIDADE</li></a>
-                          <a href="#"><li>FLIPERAMA</li></a>
-                </ul>
-              </nav>
-            <div class="personagem-rey">
-              <img src="./img/rey star wars.png" alt="">
-            </div>
-        </div>
-       
+        <div class="main-container-de-cima">
+            <img src="./img/sta uo robot.png" alt="" class="imagem-fundo-main-primeira">
+        <section class="main-top">
+          
+            <div class="card-red">
+               
+                <img class="card-red-top" src="./img/strom trupe red.png" alt="">
+             
+                <div class="redcard-conteudo">
+                    <div class="card-h2">
+                        <h2>COMECE 
+                            A JOGAR
+                        </h2>
+                    </div>
         
+                    <div class="card-p">
+                        <p>Baixe o jogo, cadastre seu nome
+                            de usuário e comece a interagir com
+                            mais de um milhão de jogadores.</p>
+                    </div>
+        
+                    <div class="card-button">
+                        <button class="button-do-card">
+                        <a class="nome-button" href="#"> DOWNLOAD</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="area-do-texto-direita">
+                <div class="elementos-direita">
+                <div class="text-direita">
+                    <h2>SOBRE O JOGO</h2>
+                </div>
+                <div class="linha-h2">
+
+                </div>
+                <div class="p-da-direita">
+                    <p>Star Wars Battlefront é um jogo eletrônico de tiro em 
+                        primeira e terceira pessoa, produzido pela DICE 
+                                          e baseado na franquia Star Wars.
+                        Foi publicado pela Electronic Arts com a chancela da 
+                        LucasArts a 17 de Novembro de 2015 para Microsoft
+                        Windows, Playstation 4 e Xbox One.</p>
+                </div>
+    
+             
+                    <img class="img-direita-frente" src="./img/star wars frente de batalha.png" alt="">
+                    
+               
+            </div>
+            </div>
+        
+
+            <div class="linha-meio">
+                <img class="linha-meio-cinza" src="./img/Linha 2.png" alt="">
+            </div>
+              
+          <div class="personagens-nav">
+              <img class="lord-sifh" src="./img/lord sifh 2.png" alt="">
+
+              <nav class="nav-main">
+                <h2 class="h2-nav">ESTRUTURA 
+                    DE JOGO</h1>
+                
+                  <ul class="lista-meio">
+                    <a href="#"> <li>JORNADA</li></a>
+                    <a href="#"> <li>A BATALHA DO GUERREIRO ESTELAR</li></a>
+                      <a href="#"><li>HERÓIS CONTRA OS VILÕES</li></a>
+                        <a href="#"> <li>A BATALHA GALÁCTICA</li></a>
+                          <a href="#"> <li>SUPERIORIDADE</li></a>
+                            <a href="#"><li>FLIPERAMA</li></a>
+                  </ul>
+                  <img class="rey-star" src="./img/rey star wars.png" alt="">
+          </div>
+
+        </section>
+    </div>
+    <div class="main-container-final">
+        <img src="./img/Retângulo 3.png" alt="" class="imagem-fundo-main-ultima">
+        <section class="main-final">
+             
+            <h2 class="h2-main-final">ATRIBUTOS</h2>
       
-        </div>
-       
-       
+            <div class="img-main-box">
+                <div class="primeira-img">
+                    <img class="efeito-hover" src="./img/Grupo novos graficos.png" alt="">
+                </div>
+               
+               <div class="img-container">
+                 <div class="img-box segunda-img" >
+                    <img class="efeito-hover" src="./img/Grupo novos graficos.png" alt="">
+                 </div>
+                  <div class="img-box terceira-img">
+                    <img class="efeito-hover" src="./img/Grupo novos graficos.png" alt="">
+                  </div>
+                   <div class="img-box quarta-img">
+                    <img class="efeito-hover" src="./img/Grupo novos graficos.png" alt="">
+                   </div>
+                  
+                  <div class="img-box quinta-img">
+                    <img class="efeito-hover" src="./img/Grupo novos graficos.png" alt="">
+                  </div>
+          
+                   
+               </div>
+            </div>
+
+            <div class="ultima-img-main">
+                <img class="ultima-img" src="./img/star-wars_stormtrooper_hierarquia.png" alt="">
+            </div>
+
+            <div class="p-ultimo">
+                <p>Em normas especiasi sobre o assunto,ressalta-se que a legislação é deliberadamente preceito
+                    judicial do faturamento dos negócios, excluindo o princípio da presunção de inocência.
+                </p>
+            </div>
+
+            <div class="h2-ultimo">
+                <h2>COMO JOGAR ?</h2>
+            </div>
+           
+            </div>
+        </section>
+    </div>
     </main>
     <footer>
+       <div class="footer-cont">
+        <img src="./img/Retângulo 4.png " alt="" class="fundo-branco">
+           <div class="footer-box">
+            <img src="./img/stortm_trooper_capa_preta-removebg-preview.png" alt="" class="boneco-tropper">
+            <div class="buttons-footer ">
+                <div class="primeiro-button">
+                    <h2 class="titulo-button">01</h2>
+               <button class="final-button ">DOWNLOAD</button>
+               <p class="p-button">Baixe o jogo e crie
+                   o nome de usuário
+               </p>
+               <div class=" linha-button"></div>
+           </div>
+           <div class="segundo-button">
+               <h2 class="titulo-button">02</h2>
+               <button class=" final-button">ESCOLHER</button>
+               <p class="p-button">Selecione
+                   o tipo de jogo
+               </p>
+               <div class=" linha-button"></div>
+           </div>
+             <div class="terceiro-button">
+               <h2 class="titulo-button">03</h2>
+               <button class=" final-button">EXPLORAR</button>
+               <p class="p-button">Conquiste
+                       a galáxia
+              </p>
+               <div class=" linha-button"></div>
+             </div>
+        </div>
+
+        
      
+      
+      </div>
+     <div class="personagem-footer">
+         <img class="darth-vader"src="./img/darth_vader-sem fundo.png" alt="">
+        
+     </div>
+     <div class="p-darth">
+         <p>Layout produzido por Vai na Web para fins
+             exclusivamente educacionais. Referência:
+             https://in.pinterest.com/pin/3373478283330561824/
+         </p>
+     </div>
+    </div>
+    
+    </div>
+    
+    <div class="footer-container">
+        <div class="container-orange">
+        <img src="./img/Retângulo 18.png" alt="" class="fundo-laranja">
+    </div>
+        <div class="conteudos-dentro-do-fundo-laranja">
+        <div class="h2-footer">
+            <h2>APLICATIVO</h2>
+        </div>
+        <div class="footer-p-top">
+            <p>Comunidade adversária, é claro, como sempre imprevisível.
+               A competividade, à primeira vista, cria um conjunto
+               sociométrico de publicações leais.
+             </p>
+         </div>
+         <div class="img-container-loja">
+             <img src="./img/disponivel-google-play-badge.png" alt="">
+             <img src="./img/baixar-na-app-store-botao-2-1024x304.png" alt="">
+         </div>
+         <div class="linha-meio-footer">
+             <img src="./img/Linha 10.png" alt="">
+         </div>
+         <div class="container-footer-img-star">
+             <img src="./img/esta uo.png" alt="">
+          
+         </div>
+         <div class="p-ultimo-footer">
+             <p>Políticas internacionais, na verdade significa um funcional
+                 tpo de cultura política da Europa Continental.
+                 É bem sabido que o nacionalismo democrático-cristão
+                 simboliza o existencial.
+             </p>
+         </div>
+        </div>
+    </div>
     </footer>
-  </body>
+    </div>
+</body>
 </html>

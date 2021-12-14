@@ -3,520 +3,723 @@
   margin: 0;
   box-sizing: border-box;
 }
-header {
 
+.global {
+  max-width: 1920px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
-.fundo {
+
+.header-container {
+  width: 100%;
   position: relative;
- 
-  
 }
 
-.fundo img {
+.header-content {
+  position: absolute;
+  top: 0%;
+  
   width: 100%;
   height: 100%;
 }
 
-.personagem {
-  position: absolute;
-  left: 10%;
-  top: 1%;
-  z-index: 2;
- 
+.imagem-fundo-header {
+  width: 100%;
 }
-
-.personagem img {
-  width: 80%;
-}
-
 
 .nome-star {
   position: absolute;
-  left: 15%;
   top: 55%;
-  z-index: 1;
-  max-width: 30%;
-  
-}
+  left: 17%;
 
-.nome-star img {
-  width: 100%;
+  width: 30%;
 }
 
 .nome-wars {
-  position: absolute;
-  left: 66%;
-  top: 55%;
-  z-index:  1;
-  
-}
-
-.nome-wars img {
-  width: 100%;
-}
-
-.crie-sua-religiao {
-  position: absolute;
-  left: 80%;
-  top: 80%;
-  max-width: 15%;
- 
-}
-
-.crie-sua-religiao img{
-  width: 60%;
-}
-/*Main*/
-main{
-  
-   
-}
-
-.imagem-canto-esquerdo{
-   position: relative;
-   
-   
-   
- 
-}
-
-.imagem-canto-esquerdo img{
-    width: auto auto;
-  
-}
-
-.div-card-superior{
     position: absolute;
-    bottom: 65%;
-    left: 15%;
-    z-index: 3;
-    max-width: 60%;
-}
+    top: 55%;
+    right: 4%;
 
-.div-card-superior img{
-width: 90%;
-
-}
-
-.div-card-superior h2 {
-    
-    color:white;
-    position: absolute;
-    bottom: 80%;
-    left: 30%;
-    white-space: pre-line;
-    font-size: 28px;
-}
-
-.div-card-superior p{
-    position: absolute;
-    bottom: 50%;
-    left: 09%;
-    white-space: pre-line;
-    color: whitesmoke;
-    font-size: 22px;
-}
-
-
-.div-card-superior button a{
-    
-    position: absolute;
-    bottom: 20%;
-    left: 27%;
-    border: 1px solid white;
-    background-color: transparent;
-    color: white;
-    width: 40%;
-    height: 5%;
-   text-decoration: none;
-   font-size: 22px;
-
-   border-radius: 3px;
-   
-   
-}
-.div-card-superior button :hover { 
-  
-  background-color: red; 
-  
-  transition: 0.1s;
-  
-  opacity: 0.9;
-  
-  }
-
-.imagem-da-direita{
-  position: absolute;
-  top: 18%;
-  left: 71.9%;
-}
-
-.elementos-da-direita{
-  position: absolute;
-  top: 18%;
-  left: 60%;
-  font-size: 19px;
-
-  }
-
-  .linha-do-h2{
-    position: absolute;
-    top: 20%;
-    left: 59%;
-    
- 
-  }
-  .linha-do-h2 img{
     width: 30%;
-  }
 
-.p-da-direita p{
-  position: absolute;
-  white-space: pre-line;
-  top: 24%;
-  left: 46.7%;
-  color: black;
-  font-size: 18px;
-  text-align: right;
 }
 
-.linha-do-meio{
-  position: absolute;
-  top: 45%;
-  left: 15%;
-  
-}
-
-.linha-do-meio img{
-  width: 97%;
-}
-
-.personagem-lord-sifh{
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  z-index: 1;
-  max-width: 70%;
-}
-.personagem-lord-sifh img{
+.img-star-wars {
   width: 100%;
 }
 
-.estrutura-de-jogo{
-  position: absolute;
-  top: 60%;
-  left: 55%;
+.img-kylo {
+  width: 70.4vw;
 }
 
-.lista-meio{
+.personagem-kylo {
+  width: 60%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  position: absolute;
+  top: 12%;
+  z-index: 1;
+  left: 10%;
+}
+
+.crie-sua-legiao {
+  width: 9%;
+  position: absolute;
+  bottom: 0;
+  right: 11.1%;
+}
+.crie-sua-legiao img {
+  width: 90%;
+}
+/*main*/
+
+/*
+.main-top {
+  width: 100% ;
+  height: 190vh;
+
+  background-image: url('./img/sta\ uo\ robot.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+
+
+  position: relative;
+}
+*/
+
+.main-container-de-cima{
+  width: 100%;
+  position: relative;
+}
+.imagem-fundo-main-primeira{
+  width: 60%;
+
+}
+.main-top{
+  
+   position: absolute;
+
+
  
+  width: 100%;
+  height: 100%;
+}
+
+.card-red {
+  width: 30%;
+  position: absolute;
+  z-index: 99;
+
+  bottom: 161%;
+  left: 14%;
+}
+
+.redcard-conteudo {
+  position: absolute;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+}
+
+.card-red-top {
+  width: 100%;
+}
+
+.card-h2 {
+  width: 100%;
+  text-align: center;
+
+  margin-top: 15%;
+
+  z-index: 99;
+  color: white;
+  font-size: 2vw;
+  white-space: pre-line;
+}
+
+.card-p {
+  width: 100%;
+  text-align: center;
+  z-index: 99;
+ 
+  color: white;
+  font-size: 1.5vw;
+  white-space: pre-line;
+}
+
+.card-button {
+  z-index: 1;
+  color: white;
+
+  margin-top: 20%;
+  text-align: center;
+}
+
+.button-do-card {
+  padding: 5% 10%;
+
+  border: 0.1vw solid white;
+  background-color: transparent;
+  font-size: 2vw;
+  border-radius: 10px;
+}
+
+.nome-button {
+  text-decoration: none;
+  color: white;
+}
+
+.card-button :hover {
+  background-color: red;
+
+  transition: 0.1s;
+
+  opacity: 0.9;
+}
+
+.area-do-texto-direita {
+  position: absolute;
+z-index: 99;
+  left: 60%;
+  bottom: 183%;
+  font-size: 1.1vw;
+  width: 30%;
+  text-align: center;
+}
+.elementos-direita{
+  position: absolute;
+  top: 0;
+  right: 40%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.text-direita {
+  width: 100%;
+  text-align: center;
+  margin-left: 27%;
+}
+
+.linha-h2 {
+  width: 50%;
+  border: 0.2vw solid #000;
+  margin-left: 50%;
+}
+
+.p-da-direita {
+  width: 100%;
+  margin-right: 0%;
+ 
+
+  white-space: pre-line;
+  text-align: right;
+  font-size: 1.2vw;
+}
+
+.img-direita {
+  padding-left: 70%;
+
+ 
+}
+
+.img-direita-frente {
+  position: absolute;
+  width: 70%;
+  margin-left: 51%;
+  top: 0%;
+ 
+}
+
+.linha-meio {
+  position: absolute;
+  bottom: 150%;
+  left: 13%;
+  z-index: 99;
+}
+
+.linha-meio-cinza {
+  width: 85vw;
+}
+
+.personagens-nav{
+  width: 100%;
+  
+
+ 
+}
+
+.lord-sifh {
+  position: absolute;
+  bottom: 95%;
+  width: 50%;
+  left: 10%;
+  z-index: 99;
+}
+
+.h2-nav {
+  display: flex;
+  position: absolute;
+  bottom: 125%;
+  left: 50%;
+  font-size: 2.8vw;
+  white-space: pre-line;
+  text-align: right;
+  z-index: 99;
+  width: 50%;
+  
+}
+
+.lista-meio {
   position: absolute;
   list-style: none;
-  font-size: 25px;
- 
-  right: 1%;
-  margin-top: 10%;
+  font-size: 25vw;
+  bottom: 100%;
+  left: 8%;
+  margin-top: 11%;
   text-align: right;
   white-space: nowrap;
- 
+  font-size: 1.9vw;
+  z-index: 99;
+  width: 60%;
+
 }
 
 .lista-meio a {
   text-decoration: none;
 }
 
-.lista-meio a li  {
-  
+.lista-meio a li {
   color: black;
   margin-bottom: 1em;
-  
-
 }
 
-.lista-meio :hover { 
-  
-background-color: orangered; 
+.lista-meio :hover {
+  background-color: orangered;
 
-transition: 0.1s;
+  transition: 0.1s;
 
-opacity: 0.9;
- 
-color:#fff;
+  opacity: 0.9;
 
+  color: #fff;
 }
 
-
-
-
-.personagem-rey{
+.rey-star {
   position: absolute;
-  top: 55%;
+ bottom: 95%;
   left: 70%;
-  z-index: 1;
-  max-width: 30%;
+  width: 25%;
+  z-index: 99;
 }
-
-.personagem-rey img{
+/*
+.main-final {
   width: 100%;
-}
+  height: 150vw;
+  background-image: url('./img/Retângulo\ 3.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 
-/*footer*/
-.imagem-final{
+  display: flex;
+
+  position: relative;
+}
+*/
+.main-container-final{
+  width: 100%;
   position: relative;
   
-}
 
-.imagem-final img{
+ 
+}
+.main-final{
+
+  position: absolute;
+ 
+ 
+
+ width: 100%;
+height: 100%;
+
+
+}
+.imagem-fundo-main-ultima{
   width: 100%;
+
+
 }
+.h2-main-final {
+  margin: 10%;
+  color: white;
+  font-size: 4vw;
+  z-index: 99;
+ position: absolute;
+ bottom: 180%;
 
-
-
-@media screen and (max-width: 1440px) {
-  .p-da-direita p{
-    font-size: 16.4px;
-  }
 }
+.img-main-box{
+  display: flex;
+  position: absolute;
+  bottom: 155%;
+  left: 4%;
 
-@media screen and (max-width: 1024px) {
- .div-card-superior{
-   left: 7%;
-   bottom: 73%;
- }
-  .div-card-superior img{
-   width: 70%;
- }
+  width: 100%;
+  height: 32%;
 
- .div-card-superior h2 {
-   left:20%;
- }
 
- .div-card-superior p {
-   left: 4%;
-   font-size: 18px;
- }
  
-  .p-da-direita p{
-    font-size: 16.4px;
-  }
-  .div-card-superior button a{
-    left:15%;
-    width: 40%;
-    height: 7%;
-  }
-  .imagem-da-direita{
-    left: 70%;
-    top: 15%;
-  }
-  .imagem-da-direita img {
-    width: 100%;
-  }
-  .elementos-da-direita{
-    left: 54%;
-    top: 15%;
-  }
-  .linha-do-h2{
-    left: 55%;
-    top: 17%;
-  }
-  .p-da-direita p {
-    left: 37%;
-    top: 19%;
-  }
+}
 
- .personagem-rey{
-   left: 70%;
-   top: 65%;
-  
- }
- .personagem-lord-sifh {
-   left: 1%;
-   top: 60%;
- }
+.primeira-img {
+  background-image: url("./img/134840-games-review-star-wars-battlefront-review-image1-NkRao9Jw12.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.segunda-img{
+  background-image: url("./img/Security_stormtrooper_HUC2-FF-003301.png");
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.terceira-img{
+  background-image: url("./img/star\ game.png");
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.quarta-img{
+  background-image: url("./img/naves em batalha star wars.png");
+  width: 49%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.quinta-img{
+  background-image: url("./img/stormtrup.png");
+  width: 48%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.efeito-hover{
+  opacity: 0;
+}
+
+.efeito-hover:hover{
+  opacity: 0.8;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+
+}
+.img-container {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.img-box {
+  width: 45%;
+  height: 50%;
+
 }
 
 
-@media screen and (max-width: 768px) {
-  .fundo img {
-    
-  }
-  .imagem-canto-esquerdo img{
-   
-   width: 50%;
-  
+
+.ultima-img-main {
+  position: absolute;
+  bottom: 110%;
+  left: 10%;
 }
-  .div-card-superior{
-   left: 50%;
-   top: 10%;
-    
+
+.ultima-img {
+  width: 89%;
+ 
+}
+
+.p-ultimo {
+  position: absolute;
+
+  bottom: 107%;
+  left: 50%;
+  color: white;
+  white-space: pre-line;
+  text-align: right;
+  font-size: 1vw;
+
+}
+
+.h2-ultimo {
+  position: absolute;
+
+  bottom: 102%;
+  left: 45%;
+  color: white;
+  font-size: 2vw;
+}
+
+
+/*footer*/
+
+.footer-cont{
+ position: relative;
+  width: 100%;
+
+  
+
+}
+.footer-box{
+  position: absolute;
+   width: 100%;
+  height: 100%;
+
+
+
+}
+
+.fundo-branco{
+  width: 100%;
+ 
+}
+
+
+.boneco-tropper{
+  width: 35%;
+  
+  bottom: 10%;
+
+  position: absolute;
+
+ 
+}
+
+
+.buttons-footer {
    
-  }
-  .div-card-superior img{
-   width: 70%;
-   }
+   position: absolute;
+  bottom: 80%;
+  left: 40%;
 
-   .div-card-superior h2 {
-    left: 20%;
-    top: 10%;
-  }
-  .div-card-superior p{
-    left: 2%;
-    top: 130%;
-  }
+  width: 60%;
+  height: 100%;
+ 
+ 
+}
 
-  .div-card-superior button a{
-    width: 50%;
-    height: 20%;
-    left: 10%;
-    top: 250%;
-  }
+.titulo-button {
+  margin-left: 12%;
+  margin-bottom: 10%;
+  font-size: 3vw;
+  width: 20%;
 
-  .imagem-da-direita{
+ 
+ 
+}
+.p-button {
+  width: 90%;
+  padding-top: 10%;
+  padding-right: 37%;
+  white-space: pre-line;
+  font-size: 1.2vw;
+  text-align: center;
+
+ 
+}
+.primeiro-button{
+  position: absolute;
+ width: 30%;
+  top: 50%;
+
+}
+
+.segundo-button{
+  position: absolute;
+  width: 30%;
+   top: 50%;
+   left: 20%;
+}
+.terceiro-button{
+  position: absolute;
+  width: 30%;
+   top: 50%;
    left: 40%;
-   top: 40%;
-   
-  }
-  
-
-  .elementos-da-direita {
-    left: 70%;
-    top: 52%;
-  }
-
-  .linha-do-h2 {
-    left: 70%;
-    top: 53%;
-  }
-  .linha-do-h2{
-    width: 10%;
-  }
-
-  .p-da-direita p{
-    left: 40%;
-    top:  55%;
-    font-size: 20px;
-  }
-  .linha-do-meio{
-    left: 20%;
-    top:  50%;
-  }
-  .linha-do-meio {
-    width: 5%;
-  }
-  .imagem-final img{
-   
-
-  }
 }
-@media screen and (max-width: 375px) {
-  .fundo img {
-   
-  }
-  .imagem-canto-esquerdo img{
-   
-   width: 80%;
+.final-button {
 
-  
-}
-  .div-card-superior{
-   left: 30%;
-   top: 4%;
-    
-   
-  }
-  .div-card-superior img{
-   width: 110%;
-   }
-
-   .div-card-superior h2 {
-    left: 28%;
-    top: 10%;
-  }
-  .div-card-superior p{
-    left: 10%;
-    top: 80%;
-  }
-
-  .div-card-superior button a{
-    width: 60%;
-    height: 20%;
-    left: 25%;
-    top: 230%;
-  }
-
-  .imagem-da-direita{
-   left: 30%;
-   top: 75%;
-   
-  }
-  .imagem-da-direita img{
-    width: 95%;
-  }
-  .fundo-branco{
-    
-  
-    
-   
-  }
-              
-
-
-  .elementos-da-direita {
-    left: 50%;
-    top: 108%;
-   
-   font-size: 15px;
-  }
-
-  .linha-do-h2 {
-    left: 47%;
-    top: 110%;
-  
-   
-  }
-  .linha-do-h2 img{
-    width: 400%;
-    height: 3px;
-  }
-
-  .p-da-direita p{
-    left: 5%;
-    top:  120%;
-    font-size: 14px;
-  }
-  .linha-do-meio{
-    left: 10%;
-    top:  140%;
+  width: 50%;
+  height: 5vh;
+  background-color: black;
+  color: white;
  
-  }
-  .linha-do-meio img {
-    width: 1500%;
-    height: 3px;
-  }
-  .imagem-final img{
-    
+  border-radius: 6%;
+ 
+  text-align: center;
+ 
+  
+ 
+}
+.linha-button {
+  width: 50%;
+  position: absolute;
+  border: 3px solid #000;
+  margin: 4%;
+  
 
+}
+
+.final-button:hover {
+  background-color: orangered;
+  cursor: pointer;
+
+
+  color: #fff;
+}
+
+
+
+.footer-container{
+  position: relative;
+
+  width: 100%;
+  
+
+  color: white;
+}
+.conteudos-dentro-do-fundo-laranja{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+ margin-top: 32%;
+ 
+}
+.container-orange{
+  position: absolute;
+  width: 100%;
+ 
+  margin-top: 25%;
+ 
+}
+.fundo-laranja{
+  width: 70%;
+
+
+  height: 100%;
+ 
+ 
+ 
+
+}
+
+.h2-footer{
+ 
+ font-size: 2vw;
+ margin-left: 18%;
+ margin-bottom: 0%;
+
+}
+
+.footer-p-top{
+ margin-left: 18%;
+ margin-top: 0%;
+ font-size: 1.2vw;
+ white-space: pre-line;
+}
+
+.img-container-loja{
+ margin-left: 15%;
+ margin-top: 4%;
+ width: 55%;
+ cursor: pointer;
+}
+
+
+.linha-meio-footer{
+ margin-left: 15%;
+ margin-top: 4%;
+}
+.container-footer-img-star{
+ margin-left: 15%;
+ margin-top: 2%;
+}
+
+.p-ultimo-footer{
+ white-space: pre-line;
+ margin-left: 15%;
+ font-size: 1.2vw;
+
+}
+
+.darth-vader{
+  position: absolute;
+  width: 40%;
+  left: 59%;
+  top: 180%;
+  z-index: 99;
+ 
+}
+.p-darth{
+  position: absolute;
+  white-space: pre-line;
+  left: 75%;
+  top: 380%;
+  z-index: 99;
+  width: 22%;
+  font-size: 1.1vw;
+
+
+}
+
+
+@media (max-width: 1440px) {
+  .fundo-laranja{
+    height: 100vh;
   }
-  .personagem-lord-sifh{
-    top: 150%;
+
+}
+
+
+@media (max-width: 1024px) {
+  .fundo-laranja{
+    height: 110vh;
   }
-  .personagem-lord-sifh img{
-    width: 60%;
-  }
-  .estrutura-de-jogo{
-    top: 150%;
-    font-size: 10px;
-    left: 30%;
-  }
-  .lista-meio{
-    font-size: 10px;
-  }
-  .personagem-rey{
-    top: 150%;
-    left: 73%;
-  }
-  .personagem-rey img{
-    width: 90%;
+  .darth-vader{
+    width: 40%;
+   left: 62%;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
